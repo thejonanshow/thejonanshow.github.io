@@ -1,0 +1,147 @@
+.clear {
+  clear:both;
+}
+.screen {
+  position:absolute;
+  left:-424242px;
+}
+.hide {
+  display:none;
+  border:0;
+}
+html {
+  width:100%;
+  height:100%;
+}
+body {
+  width:100%;
+  background:url('../images/brick.gif') repeat top left;
+}
+#wrapper {
+  width:100%;
+  padding-bottom:1000px;
+  background:url('../images/repeaty_brick.png') repeat-x top left;
+}
+#content {
+  width:960px;
+  height:544px;
+  margin:0 auto;
+  background:url('../images/1337807.png') no-repeat top center;
+}
+ul#links {
+  display:block;
+  width:550px;
+  margin:0 auto;
+  padding-top:553px;
+}
+ul#links li {
+  float:left;
+  padding:0 15px;
+}
+ul#links li a img {
+  display:none;
+}
+a#github {
+  display:block;
+  width:80px;
+  height:80px;
+  margin-top:5px;
+  background:url('../images/da_bricks.png') no-repeat bottom left;
+}
+a#twitter {
+  display:block;
+  width:80px;
+  height:80px;
+  margin-top:5px;
+  background:url('../images/da_bricks.png') no-repeat -80px bottom;
+}
+a#google {
+  display:block;
+  width:80px;
+  height:80px;
+  margin-top:5px;
+  background:url('../images/da_bricks.png') no-repeat -160px bottom;
+}
+a#blogger {
+  display:block;
+  width:80px;
+  height:80px;
+  margin-top:5px;
+  background:url('../images/da_bricks.png') no-repeat -240px bottom;
+}
+a#gmail {
+  display:block;
+  width:80px;
+  height:80px;
+  margin-top:5px;
+  background:url('../images/da_bricks.png') no-repeat -320px bottom;
+}
+a#github:hover {
+  margin-top:0;
+}
+a#twitter:hover {
+  margin-top:0;
+}
+a#google:hover {
+  margin-top:0;
+}
+a#blogger:hover {
+  margin-top:0;
+}
+a#gmail:hover {
+  margin-top:0;
+}
+a#github:active,
+a#google:active,
+a#gmail:active,
+a#blogger:active,
+a#twitter:active {
+  margin-top:-75px;
+  height:160px;
+}
+a#github:active img,
+a#google:active img,
+a#gmail:active img,
+a#blogger:active img,
+a#twitter:active img {
+  display:block;
+}
+
+/* Blog Styles */
+
+h2.blog {
+  color:black;
+  padding:10px 0;
+  font-weight:bold;
+  font-size:26px;
+  font-family:'Cardo', serif;
+}
+
+div#blog_content {
+  margin:120px auto;
+  width:900px;
+  padding:30px;
+  text-align:left;
+  border:1px solid black;
+  background-color:rgba(255,255,255,0.8);
+  -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, .4);
+  -moz-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, .4);
+}
+
+div#blog_content article {
+  font-size:18px;
+  font-family:'Droid Sans', sans-serif;
+}
+
+div#blog_content p {
+  padding:5px 0 15px;
+}
+
+div#blog_content pre {
+  display:block;
+  padding:15px;
+  margin:5px 0 15px;
+  line-height:150%;
+  background-color:rgba(95,95,95,0.2);
+}
+
