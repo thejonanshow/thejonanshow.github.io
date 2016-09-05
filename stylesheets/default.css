@@ -34,7 +34,7 @@ ul#links {
   width:550px;
   margin:0 auto;
   padding-top:553px;
-  list-style: none;
+  list-style-type: none;
 }
 ul#links li {
   float:left;
